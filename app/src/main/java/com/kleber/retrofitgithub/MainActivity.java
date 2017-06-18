@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
 
         this.recyclerView = (RecyclerView) findViewById(R.id.github_repos_recycler_view);
         this.recyclerView.setHasFixedSize(true);
-        this.recyclerView.setAdapter(this.adapter);
         this.recyclerView.setLayoutManager(this.layoutManager);
         this.recyclerView.setItemAnimator(new DefaultItemAnimator());
         this.recyclerView.setAdapter(this.adapter);
